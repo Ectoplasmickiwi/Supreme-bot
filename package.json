@@ -1,0 +1,23 @@
+{
+  "name": "accgen",
+  "version": "1.0.0",
+  "description": "Acc gen bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "SiebeDW",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "mysql": "^2.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}

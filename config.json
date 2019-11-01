@@ -1,0 +1,67 @@
+{
+    "token": "NjM4MDk2MDMxNTMxNDAxMjIw.XbXv2g.JqReKcRRK2UarhjjqRiw7pZ4t9k",
+    "deletegeneratedaltsfromdatabase": true,
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "Rudykot1",
+        "database": "alphabot",
+        "timeout": 60
+    },
+    "paths": {
+        "commands": "./commands",
+        "events": "./events"
+    },
+    "prefix": ".",
+    "generators": [
+        "Minecraft NFA",
+        "Minecraft SFA",
+        "Hulu",
+        "NordVPN",
+        "Origin",
+        "Spotify",
+        "Crunchyroll",
+        "Grammarly",
+        "Minecraft OF",
+        "Minecraft Ranked NFA",
+        "Fortnite",
+        "Steam",
+        "netflix",
+        "Hellofresh",
+        "Uplay"
+    ],
+    "roles": [
+        {
+            "name": "5 invites",
+            "generators": [
+                "Minecraft NFA",
+                "Hulu",
+                "NordVPN",
+                "Origin"
+            ],
+            "cooldown": 1050000
+        },
+        {
+            "name": "Premium",
+            "generators": [
+                "Grammarly"
+            ],
+            "color": "#1b8cdf",
+            "cooldown": 1000
+        },
+        {
+            "name": "Emerald",
+            "generators": [
+                "Fortnite"
+            ],
+            "color": "#278d46",
+            "cooldown": 10000000
+        },
+        {
+            "name": "<@&639230388694417422>",
+            "color": "#000000",
+            "cooldown": 86400000
+        }
+    ]
+}
